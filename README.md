@@ -11,6 +11,6 @@ For Example :
 ```bash
 python manage.py add_data karthik 0 20
 ```
-Where [user name] = karthik
-[start time] = 0 
-[end time] = 20
+Where [user name] = karthik<br />
+[start time] = 0 <br />
+[end time] = 20<br />
