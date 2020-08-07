@@ -9,7 +9,8 @@ python manage.py add_data [user name] [start time] [end time]
 
 For Example : 
 ```bash
-python manage.py add_data praveen 0 20
+python manage.py add_data karthik 0 20
 ```
-*Where praveen - user name
-0 - time
+Where [user name] = karthik
+[start time] = 0 
+[end time] = 20
