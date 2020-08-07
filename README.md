@@ -5,15 +5,15 @@ We can populate data in the database using a custom management command.
 ```bash
 python manage.py add_data [user name] [start time] [end time]
 ```
-## help
+## Help
 
 For Example : 
 ```bash
 python manage.py add_data karthik 0 20
 ```
 Where : [user name] - karthik<br />
-[start time] - 0 (in minutes)<br />
-[end time] - 20 (in minutes)<br />
+[start time] - 0 <br />
+[end time] - 20 <br />
 
 The number you enter for start time and end time arguments is considered in minutes.<br />
 For Ex: if you enter 10 (therefore 10 minutes) it is considered as current time + 10 minutes<br />
