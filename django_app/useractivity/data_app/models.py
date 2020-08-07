@@ -1,9 +1,11 @@
 from datetime import datetime
-
+import pytz
 from django.db import models
 
 class user_data(models.Model):
     user_name = models.CharField(max_length=20)
+    TIMEZONES = tuple(zip(pytz.all_timezones, pytz.all_timezones))
+    timezone = models.CharField(max_length=32, choices=TIMEZONES,default='Asia/Kolkata')
 
     def __str__(self):
         return self.user_name
