@@ -11,11 +11,14 @@ For Example :
 ```bash
 python manage.py add_data karthik 0 20
 ```
-Where : 
+Where : <br />
 [user name] - karthik<br />
 [start time] - 0 <br />
 [end time] - 20 <br />
 
 The number you enter for start time and end time argument is considered in minutes.<br />
-For Ex: if you enter 10 (therefore 10 minutes) it is considered as current time + 10 minutes<br />
+For Ex : if you enter 10 (therefore 10 minutes) it is considered as current time + 10 minutes<br />
 If you enter 0 it is considered as current date and time.
+
+The data saved in database is served using JSON format, For demo the code is deployed in pythonanywhere.
+Please click [here](https://dorai9845.pythonanywhere.com/) to view.
