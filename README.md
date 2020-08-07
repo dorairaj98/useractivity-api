@@ -5,3 +5,8 @@ We can populate data in the database using a custom management command.
 ```bash
 python manage.py add_data [user name] [start time] [end time]
 ```
+## help
+
+For Example : python manage.py add_data praveen 0 20
+*Where praveen - user name
+0 - time
