@@ -6,6 +6,9 @@ The data saved in database is served using JSON format, For demo the code is dep
 Please click [here](https://dorai9845.pythonanywhere.com/) to view.
 
 ## Usage
+
+Command to populate data in database
+
 ```bash
 python manage.py add_data [user name] [start time] [end time]
 ```
