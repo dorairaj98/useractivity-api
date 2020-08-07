@@ -7,6 +7,9 @@ python manage.py add_data [user name] [start time] [end time]
 ```
 ## help
 
-For Example : python manage.py add_data praveen 0 20
+For Example : 
+```bash
+python manage.py add_data praveen 0 20
+```
 *Where praveen - user name
 0 - time
