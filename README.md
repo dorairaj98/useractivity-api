@@ -11,10 +11,11 @@ For Example :
 ```bash
 python manage.py add_data karthik 0 20
 ```
-Where : [user name] - karthik<br />
+Where : 
+[user name] - karthik<br />
 [start time] - 0 <br />
 [end time] - 20 <br />
 
-The number you enter for start time and end time arguments is considered in minutes.<br />
+The number you enter for start time and end time argument is considered in minutes.<br />
 For Ex: if you enter 10 (therefore 10 minutes) it is considered as current time + 10 minutes<br />
 If you enter 0 it is considered as current date and time.
